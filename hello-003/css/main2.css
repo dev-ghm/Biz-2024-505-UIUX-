@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+header.main div {
+  margin: 10px;
+}
+
+nav.main {
+  color: white;
+  background-color: violet;
+}
+
+nav.main ul {
+  list-style: none;
+  display: flex;
+}
+
+nav.main li {
+  padding: 15px;
+  margin: 3px;
+}
+
+section.main image {
+  width: 100%;
+  height: auto;
+}
