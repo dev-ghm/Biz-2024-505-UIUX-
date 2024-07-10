@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="Ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 200;
+        height: 100;
+        border: 3px;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+    const div = document.querySelector("div");
+    let count = 0;
+    const onClickHandler1 = (e) => {
+      count++;
+      let deg = count * 90;
+      div.style.transform = "rotate(" + deg + "deg)";
+    };
+    div.addEventListener("click", onClickHandler1);
+  </script>
+</html>
